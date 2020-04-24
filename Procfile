@@ -1,1 +1,1 @@
-web: gunicorn "web_app:create_app()"
+web: gunicorn "sprint_challenge1:create_app()"
