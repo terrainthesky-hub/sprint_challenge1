@@ -46,10 +46,10 @@ def index():
 
 @APP.route('/')
 def root():
-    condition = (Record.value >= 10)
-    records = Record.query.filter(condition).all()
-    print(records)
-    return records
+    #condition = (Record.value >= 10)
+    #records = Record.query.filter(condition).all()
+    #print(records)
+    #return records
 
 
 
